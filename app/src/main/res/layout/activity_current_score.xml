@@ -1,0 +1,53 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="top|center_horizontal"
+    android:background="@color/black"
+    tools:context=".QCircleMainActivity" >
+
+    <RelativeLayout
+        android:id="@+id/cover_main_view"
+        android:layout_width="@dimen/physical_width_of_quickcircle"
+        android:layout_height="@dimen/physical_height_of_quickcircle"
+        android:layout_gravity="center_horizontal" >
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:paddingTop="20dp"
+            android:text="@string/your_score"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/score"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:layout_below="@id/title"
+            android:gravity="center"
+            android:text="0"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/white" />
+
+        <FrameLayout
+            android:id="@+id/back_btn"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:layout_below="@id/score"
+            android:background="@drawable/button_selector"
+            android:clickable="true" >
+
+            <ImageView
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:paddingBottom="8dp"
+                android:paddingTop="8dp"
+                android:src="@drawable/backbutton" />
+        </FrameLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

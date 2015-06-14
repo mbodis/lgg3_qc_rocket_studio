@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- common -->
+    <string name="app_name">QC rocket</string>
+    
+    <!-- high score activity -->
+    <string name="high_score">High Scores</string>
+    <string name="play_lr">Play LR</string>
+    <string name="play_rt">Play RT</string>
+    <string name="action_delete">Delete high scores</string>
+    <string name="your_score">Score</string>
+    <string name="actual_score">score</string>
+    <string name="game_lr">Left-Right</string>
+    <string name="game_rt">Rotate</string>
+    <string name="high_score_lr">Hight score Left Right</string>
+    <string name="high_score_rt">Hight score Rotate</string>
+    <string name="use_long_click">Use long click to edit name</string>
+
+
+    <!-- dialog edit high score -->
+    <string name="high_score_title">Hight score detail</string>
+    <string name="enter_player_name">Enter player name</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="saved">Saved</string>
+    <string name="error_save">Error while saving</string>
+    
+    <!-- dialog delete all high scores -->
+    <string name="delete_all_score_title">Delete high-scores</string>
+    <string name="delete_all_score_message">Are you sure you want to remove all your scores?</string>
+    <string name="delete">Delete</string>
+    <string name="data_removed">High scores were deleted</string>
+    
+    
+</resources>
