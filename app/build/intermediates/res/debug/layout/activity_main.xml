@@ -1,7 +1,0 @@
-<ListView xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:id="@android:id/list"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent" >
-
-</ListView><!-- From: file:/home/mbodis/Documents/svab/it/android/git/svb_lgg3_circlecase_rocket_studio/app/src/main/res/layout/activity_main.xml -->

@@ -2,7 +2,8 @@
 <resources>
 	<!-- common -->
     <string name="app_name">QC rocket</string>
-    
+    <string name="device_incompatible">Your device is incompatible, use LG with quick-circle case please.</string>
+
     <!-- high score activity -->
     <string name="high_score">High Scores</string>
     <string name="play_lr">Play LR</string>
@@ -12,13 +13,14 @@
     <string name="actual_score">score</string>
     <string name="game_lr">Left-Right</string>
     <string name="game_rt">Rotate</string>
-    <string name="high_score_lr">Hight score Left Right</string>
-    <string name="high_score_rt">Hight score Rotate</string>
+    <string name="high_score_lr">High score Left Right</string>
+    <string name="high_score_rt">High score Rotate</string>
     <string name="use_long_click">Use long click to edit name</string>
+    <string name="empty_high_scores">There are no high scores</string>
 
 
     <!-- dialog edit high score -->
-    <string name="high_score_title">Hight score detail</string>
+    <string name="high_score_title">High score detail</string>
     <string name="enter_player_name">Enter player name</string>
     <string name="cancel">Cancel</string>
     <string name="save">Save</string>

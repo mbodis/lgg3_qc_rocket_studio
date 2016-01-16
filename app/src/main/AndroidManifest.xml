@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="sk.svb.lgg3.svb_circlecase_rocket"
-    android:versionCode="4"
-    android:versionName="1.1" >
+    android:versionCode="5"
+    android:versionName="1.11" >
 
     <uses-permission android:name="android.permission.VIBRATE" />
 

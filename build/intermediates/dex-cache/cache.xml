@@ -2,32 +2,32 @@
 <items version="2" >
 
     <item
-        jar="/opt/sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.3/support-annotations-21.0.3.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
-        <dex dex="/home/mbodis/Documents/svab/it/android/git/svb_lgg3_circlecase_rocket_studio/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-a59767ffa577560f508e8366567d9db49220b5a2.jar" />
-    </item>
-    <item
-        jar="/home/mbodis/Documents/svab/it/android/git/svb_lgg3_circlecase_rocket_studio/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/jars/libs/internal_impl-21.0.3.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
-        <dex dex="/home/mbodis/Documents/svab/it/android/git/svb_lgg3_circlecase_rocket_studio/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-bdd021bdb514fa3c5625ebcf64d46beac8bebca9.jar" />
-    </item>
-    <item
-        jar="/home/mbodis/Documents/svab/it/android/git/svb_lgg3_circlecase_rocket_studio/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
-        <dex dex="/home/mbodis/Documents/svab/it/android/git/svb_lgg3_circlecase_rocket_studio/app/build/intermediates/pre-dexed/debug/classes-18814e5fc9ecf47f9a41ce8c714de70b6edf6063.jar" />
-    </item>
-    <item
-        jar="/home/mbodis/Documents/svab/it/android/git/svb_lgg3_circlecase_rocket_studio/app/libs/sugar-1.4_beta.jar"
+        jar="/home/mbodis/Documents/svab/it/android/git_projects/svb_lgg3_circlecase_rocket_studio/app/libs/sugar-1.4_beta.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="4101767d6f58049ff480be3deeecab2fdbbb0361">
-        <dex dex="/home/mbodis/Documents/svab/it/android/git/svb_lgg3_circlecase_rocket_studio/app/build/intermediates/pre-dexed/debug/sugar-1.4_beta-483a2601c0b53a2ebc19d78943258eaf02d0a145.jar" />
+        <dex dex="/home/mbodis/Documents/svab/it/android/git_projects/svb_lgg3_circlecase_rocket_studio/app/build/intermediates/pre-dexed/release/sugar-1.4_beta-526cb10b637105bd37a7b9c857d94904670b9dcb.jar" />
+    </item>
+    <item
+        jar="/home/mbodis/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.3/support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="/home/mbodis/Documents/svab/it/android/git_projects/svb_lgg3_circlecase_rocket_studio/app/build/intermediates/pre-dexed/release/support-annotations-21.0.3-08ea498c80b079a79c4aeffc1befa96b100bfb2d.jar" />
+    </item>
+    <item
+        jar="/home/mbodis/Documents/svab/it/android/git_projects/svb_lgg3_circlecase_rocket_studio/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="/home/mbodis/Documents/svab/it/android/git_projects/svb_lgg3_circlecase_rocket_studio/app/build/intermediates/pre-dexed/release/classes-ec946858d422e350e8c7cd53df391aef7ee2b982.jar" />
+    </item>
+    <item
+        jar="/home/mbodis/Documents/svab/it/android/git_projects/svb_lgg3_circlecase_rocket_studio/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/jars/libs/internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="/home/mbodis/Documents/svab/it/android/git_projects/svb_lgg3_circlecase_rocket_studio/app/build/intermediates/pre-dexed/release/internal_impl-21.0.3-6ba32ff76d5a31519df6bebb808a3150ba56469c.jar" />
     </item>
 
 </items>

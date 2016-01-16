@@ -30,12 +30,14 @@ public class HighScoreLRFragment extends Fragment {
     }
 
     private ListView mListView;
+    private TextView emptyList;
 	List<GameStats> list = new ArrayList<GameStats>();
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.fragment_high_socre, container, false);
         mListView = (ListView)rootView.findViewById(R.id.list);
+        emptyList = (TextView)rootView.findViewById(R.id.no_score);
         mListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
@@ -66,7 +68,7 @@ public class HighScoreLRFragment extends Fragment {
                 String.valueOf(GameStats.GAME_LR));
         mListView.setAdapter(new GameStatsAdapter(getActivity(), R.layout.adapter_gamestats,
                 list));
-
+        emptyList.setVisibility((mListView.getAdapter().getCount() == 0) ? View.VISIBLE : View.GONE);
 	}
 
 }
