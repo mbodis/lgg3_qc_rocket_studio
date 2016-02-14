@@ -7,6 +7,7 @@
     <!-- high score activity -->
     <string name="high_score">High Scores</string>
     <string name="play_lr">Play LR</string>
+    <string name="lr_calibration">LR Calibration</string>
     <string name="play_rt">Play RT</string>
     <string name="action_delete">Delete high scores</string>
     <string name="your_score">Score</string>

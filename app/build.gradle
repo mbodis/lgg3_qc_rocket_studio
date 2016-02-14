@@ -1,8 +1,8 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 21
-    buildToolsVersion "22.0.1"
+    compileSdkVersion 23
+    buildToolsVersion '23.0.0'
     defaultConfig {
         applicationId "sk.svb.lgg3.svb_circlecase_rocket"
         minSdkVersion 19

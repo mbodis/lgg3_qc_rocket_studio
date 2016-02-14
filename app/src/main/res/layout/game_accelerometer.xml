@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     android:layout_gravity="top|center_horizontal"
     android:background="@color/black"
-    tools:context="sk.svb.lgg3.svb_circlecase_rocket.game.QcAccelerometerLrActivity" >
+    tools:context=".activity.game.QcAccelerometerLrActivity" >
 
     <RelativeLayout
         android:id="@+id/cover_main_view"

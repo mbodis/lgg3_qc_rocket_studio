@@ -17,6 +17,7 @@ public class Blocks {
 
 	int width, height;
 	int speed = MIN_SPEED;
+	boolean speedUpInTime = true;
 	
 	int gate_1 = 400;
 	int gate_2 = width - GATE_WIDTH - gate_1;
@@ -31,10 +32,12 @@ public class Blocks {
 
 	int userPoints = 0;
 
-	public Blocks(int width, int height) {
+	public Blocks(int width, int height, int speed, boolean speedUpInTime) {
 		this.width = width;
 		this.height = height;
 		rand = new Random();
+		this.speed = speed;
+		this.speedUpInTime = speedUpInTime;
 	}
 
 	public void update(int points, int gameType) {
@@ -79,14 +82,20 @@ public class Blocks {
 				+ GATE_HEIGTHT);
 	}
 
+	public int getGateCenter(){
+		return gate_1 + GATE_WIDTH/2;
+	}
+
 	public boolean throughGate(int rx, int ry) {
 		if (!visited) {
 			if (rx > gate_1 && rx < gate_1 + GATE_WIDTH && ry > y
 					&& ry < y + GATE_HEIGTHT) {
 				visited = true;
 
-				if (speed < MAX_SPEED) {
-					speed += 1;
+				if (speedUpInTime) {
+					if (speed < MAX_SPEED) {
+						speed += 1;
+					}
 				}
 
 				return true;
@@ -94,6 +103,10 @@ public class Blocks {
 		}
 
 		return false;
+	}
+
+	public boolean isGateVisited(){
+		return visited;
 	}
 
 	public boolean detectCollision(int rx, int ry) {

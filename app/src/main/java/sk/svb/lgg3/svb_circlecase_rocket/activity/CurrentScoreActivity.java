@@ -1,6 +1,7 @@
 package sk.svb.lgg3.svb_circlecase_rocket.activity;
 
 import sk.svb.lgg3.svb_circlecase_rocket.R;
+import sk.svb.lgg3.svb_circlecase_rocket.UsbDevice.ServoController;
 import sk.svb.lgg3.svb_circlecase_rocket.logic.QcActivity;
 import android.content.Intent;
 import android.os.Bundle;

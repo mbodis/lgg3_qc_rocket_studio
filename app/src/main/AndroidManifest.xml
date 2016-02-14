@@ -29,19 +29,21 @@
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
+
+                <action android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED" />
             </intent-filter>
         </activity>
         <activity android:name="sk.svb.lgg3.svb_circlecase_rocket.activity.FullScreenActivity" >
         </activity>
         <activity
-            android:name="sk.svb.lgg3.svb_circlecase_rocket.game.QcAccelerometerLrActivity"
+            android:name=".activity.game.QcAccelerometerLrActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:excludeFromRecents="true"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Holo.NoActionBar.Fullscreen" >
         </activity>
         <activity
-            android:name="sk.svb.lgg3.svb_circlecase_rocket.game.QcAccelerometerRtActivity"
+            android:name=".activity.game.QcAccelerometerRtActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:excludeFromRecents="true"
             android:screenOrientation="portrait"
@@ -55,12 +57,16 @@
             android:theme="@android:style/Theme.Holo.NoActionBar.Fullscreen" >
         </activity>
 
+        <service
+            android:name=".service.UsbDeviceService"
+            android:enabled="true" />
+
         <meta-data
             android:name="DATABASE"
             android:value="qc_rocket.db" />
         <meta-data
             android:name="VERSION"
-            android:value="3" />
+            android:value="4" />
         <meta-data
             android:name="QUERY_LOG"
             android:value="true" />
