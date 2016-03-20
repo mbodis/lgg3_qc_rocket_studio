@@ -9,6 +9,8 @@ import sk.svb.lgg3.svb_circlecase_rocket.view.AccelerometerView;
 
 public class Blocks {
 
+	public static final boolean ENABLE_MOVING_BOX = false;
+
 	public static final int GATE_WIDTH = 220;
 	public static final int GATE_HEIGTHT = 80;
 
@@ -66,7 +68,9 @@ public class Blocks {
 			gate_1 = rand.nextInt(width - GATE_WIDTH - 100 * 2) + 100;
 			if (moving == false && points > 0 && points % 8 == 0) {
 				if (gameType == AccelerometerView.GAME_LR) {
-					moving = true;
+					if (ENABLE_MOVING_BOX){
+						moving = true;
+					}
 				}
 			}
 		}
